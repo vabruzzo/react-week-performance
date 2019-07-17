@@ -25,7 +25,7 @@ While some techniques are not always necessary, being disciplined with immutabil
 - [The Future of JavaScript MVC Frameworks - David Nolen's post on how using ClojureScript's immutable data structures in Om outperformed vanilla React.](https://swannodette.github.io/2013/12/17/the-future-of-javascript-mvcs)
 - [Lee Byron's introduction to Immutable. This includes great technical descriptions of the underlying data structures.](https://www.youtube.com/watch?v=I7IdS-PbEgI)
 - [Michel Westrate's introduction to immer. This includes a great description of how immer works under the hood.](https://medium.com/hackernoon/introducing-immer-immutability-the-easy-way-9d73d8f71cb3)
-- [Understanding Clojure's Persistent Vectors, pt. 1: This series explains how Clojure's persistent, immutable data structures work. These data structures inspired a lot of the work done in the JS community in this regard and includes references if you want to dig even further into the academic work done.](https://hypirion.com/musings/understanding-persistent-vector-pt-1)
+- [Understanding Clojure's Persistent Vectors, pt. 1: This series explains how Clojure's persistent, immutable data structures work. These data structures inspired a lot of the work done in the JS community in this regard. This post includes references if you want to dig even further into the academic work done.](https://hypirion.com/musings/understanding-persistent-vector-pt-1)
 
 ## Redux and Reselect: Computing Derived Data Efficiently
 
