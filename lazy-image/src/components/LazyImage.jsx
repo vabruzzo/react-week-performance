@@ -3,15 +3,9 @@ import ViewportObserver from './ViewportObserver';
 
 const LazyImage = ({ src }) => (
   <ViewportObserver>
-    {(hasBeenInViewport, domRef) => {
-      console.log(hasBeenInViewport);
-
-      return (
-        <div ref={domRef}>
-          {hasBeenInViewport ? <img src={src} alt="abstract photograph" /> : null}
-        </div>
-      );
-    }}
+    {(hasBeenInViewport, domRef) => (
+      <img ref={domRef} src={hasBeenInViewport ? src : null} alt="abstract photograph" />
+    )}
   </ViewportObserver>
 );
 
